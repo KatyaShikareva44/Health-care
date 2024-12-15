@@ -1,0 +1,14 @@
+.header{
+    background-color: aqua;
+    color: blueviolet;
+}
+.footer{
+    background-color: aqua;
+}
+.menu_link{
+    color: blueviolet;
+}
+
+@font-face{
+    font-family: ;
+}
