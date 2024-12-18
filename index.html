@@ -7,7 +7,9 @@
 </head>
 <body>
     <header class="header">
-        <div><a href="#">Логотип</a></div>
+        <div><a href="#"> <img class="services__image" src="images/logo.avif" alt="Логотип" width="50" height="50"></a>
+           
+        </div>
         <nav class="header__menu"> 
             <ul class="menu">
                 <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
@@ -22,21 +24,21 @@
     </header>
     <main class="main">
         <section class="about">
-            <h2 class="about__title">о нас</h2>
-            <img class="about__image" src="images/Без названия.jpg" alt="" width="100"> 
+            <h2 class="about__title">О нас</h2>
+            <img class="about__image" src="images/Medicalcenter.jpg" alt="" width="100"> 
             <p>Медицинский центр — это многопрофильный медицинский центр. Мы развиваем в Республике Марий Эл культуру заботы о своём здоровье и прилагаем максимум усилий, чтобы обеспечивать нашим пациентам высокое качество диагностики и лечения.</p>
-            <a class="about__link" href="#">Записаться на услуги</a>
+            <a class="about__link" href="services.html">Записаться на услуги</a>
 
 
         </section>
         <section class="services">
             <h2 class="services__title">Популярные услуги и предложения</h2>
             <div class="services__group">
-                <img class="services__image" src="images/Без названия (2).jpg" alt="">
+                <img class="services__image" src="images/Medicineandrecovery.jpg" alt="">
                 <p class="services__text">Медицина и восстановление</p>
             </div>
             <div class="services__group">
-                <img class="services__image" src="images/Без названия (1).jpg" alt="">
+                <img class="services__image" src="images/Medicine.jpg" alt="">
                 <p class="services__text">Медицина</p>
             </div>
         
@@ -44,20 +46,27 @@
         </section>
         <section class="doctors">
             <h2 class="services__title">Наши врачи</h2>
-            <div class="services__group">
-                <img class="services__image" src="images/Без названия (2).jpg" alt="">
-                <p class="services__text">Медицина и восстановление</p>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
+            <ul>
+                <li>
+                    <img src="images/doctor1.jpg" alt="Наши врачи" width="150" height="170">
+                    <h3>Иванов Иван Иванович</h3>
+                </li>
+                <li>
+                    <img src="images/doctor2.jpg" alt="Наши врачи" width="150" height="170">
+                    <h3>Сидоров Илья Владимирович</h3>
+                </li>
+                <li>
+                    <img src="images/doctor3.jpg" alt="Наши врачи" width="150" height="170">
+                    <h3>Петров Владимир Иванович</h3>
+                </li>
+            </ul>
         </section>
         <section>
             <form action="/">
                 <h1>Запись на прием</h1>
                 <input type="text" name="speciality" placeholder="Специальность" required>
                 <input type="text" name="surname" placeholder="Фамилия врача" required>
-                <input type="tell" name="phone" placeholder="Номер телефона" required>
+                <input type="number" name="phone" placeholder="Номер телефона" required>
                 <input type="email" name="post" placeholder="Почта" required>
                 <input type="date" name="date" required>
                 <button>Записаться</button>

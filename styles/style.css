@@ -1,5 +1,5 @@
 .header{
-    background-color: aqua;
+    background-color: rgb(0, 89, 255);
     color: blueviolet;
 }
 .footer{
@@ -9,6 +9,12 @@
     color: blueviolet;
 }
 
-@font-face{
-    font-family: ;
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+    font-weight: normal;
+}
+
+body{
+    font-family: "Poppins";
 }
