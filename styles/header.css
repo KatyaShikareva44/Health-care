@@ -1,20 +1,13 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: first baseline;
-    padding: 10px;
-    background-color: aliceblue;
-}
 
 .header__logo {
-    width: 200px;
-    height: 200px;
+    width: 40px;
+    height: 40px;
     font-style: normal;
 }
 
 .header h1 {
     margin: 0;
-    font-size: 96px;
+    font-size: 40px;
     font-style: normal;
     color: black;
 }
@@ -27,12 +20,12 @@ menu ul {
 }
 
 .menu__item {
-    margin-right: 20px;
+    margin-right: 16px;
 }
 
 .menu__link {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     transition: color 0.3s ease;
 }
 
@@ -48,8 +41,8 @@ menu ul {
     display: block;
     padding: 10px;
     margin: 5px;
-    background-color: rgb(79, 83, 87);
-    color: rgb(255, 255, 255);
+    background-color: rgb(62, 120, 167);
+    color: rgb(206, 229, 248);
     text-decoration: none;
    }
  
@@ -57,7 +50,7 @@ menu ul {
     display: inline-block;
      padding: 10px;
      margin: 5px;
-     background-color: rgb(79, 83, 87);
+     background-color: rgb(62, 120, 167);
      color: rgb(255, 255, 255);
      text-decoration: none;
     }   
@@ -82,4 +75,11 @@ menu ul {
         padding-top: 20px;
         padding-bottom: 20px;
        }
-              
+       .header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       }   
+
+        
