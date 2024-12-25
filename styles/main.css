@@ -1,0 +1,67 @@
+.main {
+    padding: 20px;
+}
+
+.registraion {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registraion h2 {
+    margin-top: 0;
+    color: blanchedalmond;
+}
+
+.registraion input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px snow;
+    border-radius: 4px;
+    background-color: aliceblue;
+}
+
+.registraion button {
+    width: 100%;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about__title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about__link {
+    display: inline-block;
+     padding: 10px;
+     margin: 5px;
+     background-color: rgb(79, 83, 87);
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+}
+
+.services {
+    text-align: center;
+    font-size: 20px;
+}
+
+.doctors {
+    text-align: center;
+    font-size: 20px;
+}
+
+.services__image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+

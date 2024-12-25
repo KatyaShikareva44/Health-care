@@ -1,20 +1,10 @@
-.header{
-    background-color: rgb(0, 89, 255);
-    color: blueviolet;
-}
-.footer{
-    background-color: aqua;
-}
-.menu_link{
-    color: blueviolet;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("../fonts/Poppins-Regular.woff2") format("woff2");
-    font-weight: normal;
-}
-
-body{
-    font-family: "Poppins";
-}
+/* Подключение шрифтов */
+@import "fonts.css";
+/* Подключение основных стилей */
+@import "base.css";
+/* Подключение стилей относящихся к header */
+@import "header.css";
+/* Подключение стилей относящихся к footer */
+@import "footer.css";
+/* Подключение стилей относящихся к main */
+@import "main.css";

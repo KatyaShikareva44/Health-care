@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="header">
-        <div><a href="#"> <img class="services__image" src="images/logo.avif" alt="Логотип" width="50" height="50"></a>
+    <header class="header container">
            
         </div>
         <nav class="header__menu"> 
@@ -19,13 +20,16 @@
                 <li class="menu__item"><input type="search"></li>
             </ul>
         </nav>
-        <a class="header__button" href="#">Вход</a>
-        <a class="header__button" href="#">Регистрация</a>
+        <a class="header__logo-wrap" href="index.html">
+            <img class="header__logo" scr="images/logo.avif" alt="Медицинский центр" width="10">
+        </a>
+        <div><a class="header__button" href="#">Вход</a>
+        <a class="header__button" href="#">Регистрация</a></div>
     </header>
-    <main class="main">
+    <main class="main container">
         <section class="about">
             <h2 class="about__title">О нас</h2>
-            <img class="about__image" src="images/Medicalcenter.jpg" alt="" width="100"> 
+            <img class="about__image" src="images/Medicalcenter.jpg" alt="100" width="100"> 
             <p>Медицинский центр — это многопрофильный медицинский центр. Мы развиваем в Республике Марий Эл культуру заботы о своём здоровье и прилагаем максимум усилий, чтобы обеспечивать нашим пациентам высокое качество диагностики и лечения.</p>
             <a class="about__link" href="services.html">Записаться на услуги</a>
 
@@ -34,11 +38,11 @@
         <section class="services">
             <h2 class="services__title">Популярные услуги и предложения</h2>
             <div class="services__group">
-                <img class="services__image" src="images/Medicineandrecovery.jpg" alt="">
+                <img class="services__image" src="images/Medicineandrecovery.jpg" alt="100">
                 <p class="services__text">Медицина и восстановление</p>
             </div>
             <div class="services__group">
-                <img class="services__image" src="images/Medicine.jpg" alt="">
+                <img class="services__image" src="images/Medicine.jpg" alt="100">
                 <p class="services__text">Медицина</p>
             </div>
         
@@ -76,9 +80,9 @@
 
         </section>
     </main>
-    <footer>
-        <h2>Разработчик</h2>
-        <p>Шикарева.Е.А и Горохова.Е.Д группа ЭК-31</p>
+    <footer class="footer container">
+        <h2 class="footer__title">Разработчик</h2>
+        <p class="footer__autor">Шикарева.Е.А и Горохова.Е.Д группа ЭК-31</p>
     </footer>
 </body>
 </html>
