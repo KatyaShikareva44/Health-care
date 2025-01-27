@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header container">
+        <a class="header__logo-wrap" href="index.html">
+            <img class="header__logo__image" src="images/Logo.avif" alt="Логотип" width="150"height=150>
+            <h1 class="header__title">Медицина</h1>
+        </a>
+           
+        <nav class="header__menu"> 
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Врачи</a></li>   
+                <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Отзывы</a></li>
+                <li class="menu__item menu__item--input"><input class="menu__input" type="search"></li>
+            </ul>
+        </nav>
+        <div><a class="header__button" href="#">Вход</a>
+        <a class="header__button" href="#">Регистрация</a></div>
+    </header>
+    <main class="main container">
+    <section class="about">
+        <div class="about__wrap-left">
+            <h2 class="about__title">О нас</h2>
+            <p>Медицинский центр — это многопрофильный медицинский центр. Мы развиваем в Республике Марий Эл культуру заботы о своём здоровье и прилагаем максимум усилий, чтобы обеспечивать нашим пациентам высокое качество диагностики и лечения.</p>
+            <a class="about__link" href="services.html">Записаться на услуги</a>
+        </div>
+        <div class="about__wrap-right">
+            <img class="about__image" src="images/Medicalcenter.jpg" alt="Центр" width="750" height="175">
+        </div> 
+    </section>
+    <section class="record">
+        <form class="record__form" action="/">
+            <h1 class="record__title">Запись на прием</h1>
+            <input class="record__input" type="text" name="speciality" placeholder="Специальность" required>
+            <input class="record__input" type="text" name="surname" placeholder="Фамилия врача" required>
+            <input class="record__input" type="number" name="phone" placeholder="Номер телефона" required>
+            <input class="record__input" type="email" name="post" placeholder="Почта" required>
+            <input class="record__input" type="date" name="date" required>
+            <button class="record__button">Записаться</button>
+        </form>
+    </section>
+        <section class="services">
+            <h2 class="services__title">Популярные услуги и предложения</h2>
+            <div class="services__group">
+                <img class="services__image" src="images/Medicineandrecovery.jpg" alt="100">
+                <p class="services__text">Медицина и восстановление</p>
+            </div>
+            <div class="services__group">
+                <img class="services__image" src="images/Medicine.jpg" alt="100">
+                <p class="services__text">Медицина</p>
+            </div>
+        
+
+        </section>
+        <section class="doctors">
+            <h2 class="doctors_title">Наши врачи</h2>
+            <ul class="doctors__list">
+                <li class="doctors__card">
+                    <img class="doctors__image" src="images/doctor1.jpg" alt="Наши врачи" width="150" height="170">
+                    <h3 class="doctors__name">Иванов Иван Иванович</h3>
+                    <p class="doctors__job">Терапевт</p>
+                    <p class="doctors__desc">Высшее образование по 30.06.1984, специальность: Лечебное дело, квалификация: врач, учебное заведение: Казанский медицинский институт им С.В.Курашова, документ: Диплом, серия: КВ, номер: 437961, дата выдачи: 30.06.1984</p>
+                    <a class="doctors__link" href="#" >Записаться на прием</a>
+                </li>
+                <li class="doctors__card">
+                    <img class="doctors__image" src="images/doctor2.jpg" alt="Наши врачи" width="150" height="170">
+                    <h3 class="doctors__name">Сидоров Илья Владимирович</h3>
+                    <p class="doctors__job">Эндокринолог</p>
+                    <p class="doctors__desc">Высшее образование с 01.09.1995 по 26.06.2001, специальность: Лечебное дело, квалификация: врач, учебное заведение: Казанский государственный медицинский университет, документ: Диплом, серия: БВС, номер: 0860178</p>
+                    <a class="doctors__link" href="#" >Записаться на прием</a>
+                </li>
+                <li class="doctors__card">
+                    <img class="doctors__image" src="images/doctor3.jpg" alt="Наши врачи" width="150" height="170">
+                    <h3 class="doctors__name">Петров Владимир Иванович</h3>
+                    <p class="doctors__job">Педиатр</p>
+                    <p class="doctors__desc">Высшее образование по 22.06.2012, специальность: Педиатрия, учебное заведение: ФГОУ ВПО "Чувашский государственный университет имени И.Н.Ульянова", документ: Диплом, серия: К, номер: 14303, дата выдачи: 22.06.2012</p>
+                    <a class="doctors__link" href="#" >Записаться на прием</a>
+                </li>
+                <li class="doctors__card">
+                    <img class="doctors__image" src="images/doctors4.jpg" alt="Наши врачи" width="150" height="170">
+                    <h3 class="doctors__name">Семенов Артем Валерьевич</h3>
+                    <p class="doctors__job">Онколог</p>
+                    <p class="doctors__desc">Высшее образование по 22.06.2007, специальность: Лечебное дело, квалификация: Врач, учебное заведение: ГОУ ВПО "Ижевская государственная медицинская академия Федерального агентства по здравоохранению и социальному развитию", документ: Диплом, серия: ВСГ, номер: 1968889, дата выдачи: 22.06.2007</p>
+                    <a class="doctors__link" href="#" >Записаться на прием</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer container">
+        <h2 class="footer__title">Разработчик</h2>
+        <p class="footer__autor">Сайт создан Шикаревой Е.А и Гороховой Е.Д группы Эк-31</p>
+    </footer>
+</body>
+</html>
