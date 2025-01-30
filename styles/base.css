@@ -2,10 +2,11 @@
 ::before,
 ::after {
 box-sizing: border-box;
+border-radius: 10px;
 }
 html,
 body {
-font-family: "Poppins",'Arial', sans-serif;
+font-family: "Ubuntu",'Arial', sans-serif;
 font-size: 18px;
 line-height: 30px;
 color: #000000;

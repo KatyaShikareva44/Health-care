@@ -10,18 +10,17 @@
 <body>
     <header class="header container">
         <a class="header__logo-wrap" href="index.html">
-            <img class="header__logo__image" src="images/Logo.avif" alt="Логотип" width="150">
+            <img class="header__logo__image" src="images/Logo.avif" alt="Логотип" width="150"height="150">
             <h1 class="header__title">Медицина</h1>
         </a>
            
-        </div>
         <nav class="header__menu"> 
             <ul class="menu">
                 <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
                 <li class="menu__item"><a class="menu__link" href="#">Врачи</a></li>   
                 <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
                 <li class="menu__item"><a class="menu__link" href="#">Отзывы</a></li>
-                <li class="menu__item"><input type="search"></li>
+                <li class="menu__item menu__item--input"><input class="menu__input" type="search"></li>
             </ul>
         </nav>
         <div><a class="header__button" href="#">Вход</a>
@@ -38,32 +37,42 @@
             <img class="about__image" src="images/Medicalcenter.jpg" alt="Центр" width="750" height="175">
         </div> 
     </section>
-    <section>
-        <form action="/">
-            <h1>Запись на прием</h1>
-            <input type="text" name="speciality" placeholder="Специальность" required>
-            <input type="text" name="surname" placeholder="Фамилия врача" required>
-            <input type="number" name="phone" placeholder="Номер телефона" required>
-            <input type="email" name="post" placeholder="Почта" required>
-            <input type="date" name="date" required>
-            <button>Записаться</button>
+    <section class="record">
+        <form class="record__form" action="/">
+            <h1 class="record__title">Запись на прием</h1>
+            <input class="record__input" type="text" name="speciality" placeholder="Специальность" required>
+            <input class="record__input" type="text" name="surname" placeholder="Фамилия врача" required>
+            <input class="record__input" type="number" name="phone" placeholder="Номер телефона" required>
+            <input class="record__input" type="email" name="post" placeholder="Почта" required>
+            <input class="record__input" type="date" name="date" required>
+            <button class="record__button">Записаться</button>
         </form>
     </section>
         <section class="services">
             <h2 class="services__title">Популярные услуги и предложения</h2>
             <div class="services__group">
                 <img class="services__image" src="images/Medicineandrecovery.jpg" alt="100">
-                <p class="services__text">Медицина и восстановление</p>
+                <p class="services__text">Популярные услуги</p>
             </div>
-            <div class="services__group">
-                <img class="services__image" src="images/Medicine.jpg" alt="100">
-                <p class="services__text">Медицина</p>
-            </div>
+            <ul class="services__group">
+                <li class="services__item"><a class="services__item-link" href="#">Физиокабинет</a></li>
+                <li class="services__item"><a class="services__item-link" href="#">Ренген</a></li>
+                <li class="services__item"><a class="services__item-link" href="#">КТ</a></li>
+                <li class="services__item"><a class="services__item-link" href="#">МРТ</a></li>
+                <li class="services__item"><a class="services__item-link" href="#">УЗИ</a></li>
+            </ul> 
+            <ul class="services__group">
+                <li class="services__item"><a class="services__item-link" href="#">Медицинские программы</a></li>
+                <li class="services__item"><a class="services__item-link" href="#">ФГДС</a></li>
+                <li class="services__item"><a class="services__item-link" href="#">Медосмотры и справки</a></li>
+                <li class="services__item"><a class="services__item-link" href="#">Анализы</a></li>
+                <li class="services__item"><a class="services__item-link" href="#">Косметология</a></li>
+            </ul>
         
 
         </section>
         <section class="doctors">
-            <h2 class="services__title">Наши врачи</h2>
+            <h2 class="doctors_title">Наши врачи</h2>
             <ul class="doctors__list">
                 <li class="doctors__card">
                     <img class="doctors__image" src="images/doctor1.jpg" alt="Наши врачи" width="150" height="170">
