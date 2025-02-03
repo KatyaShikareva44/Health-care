@@ -70,8 +70,8 @@
 }
 
 .services__image {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 100px;
     display: block;
 }
 
@@ -200,4 +200,9 @@
 }
 .record {
     margin-bottom: 20px;
+}
+.services__item-link{
+    color: black;
+    text-decoration: none;
+    padding: 100;
 }
