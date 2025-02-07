@@ -43,6 +43,9 @@ menu ul {
 .menu__input {
     align-self: center;
     flex-grow: 1;
+    border: 1px solid #ccc;
+    padding: 5px;
+    outline: none;
 }
    .menu__link{
     display: block;
@@ -54,7 +57,7 @@ menu ul {
    }
  
    .header__button{
-    display: inline-block;
+     display: inline-block;
      padding: 10px;
      border-radius: 50px;
      margin: 5px;
@@ -88,4 +91,15 @@ menu ul {
        .header__menu{
         flex-grow: 1;
        }
-    
+    .menu__item:hover {
+        color: #fff;
+        background-color:rgb(62, 120, 167);
+        transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out ;
+    }
+
+.menu__item--input:hover {
+    background-color:transparent;
+}
+.menu__input:focus {
+    border-color: black;
+}

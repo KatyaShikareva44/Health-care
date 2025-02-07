@@ -8,25 +8,24 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="header container">
-        <a class="header__logo-wrap" href="index.html">
-            <img class="header__logo__image" src="images/Logo.avif" alt="Логотип" width="150"height="150">
+<header class="header container">
+    <a class="header__logo-wrap" href="index.html">
+        <img class="header__logo__image" src="images/Logo.avif" alt="Логотип" width="150"height="150">
             <h1 class="header__title">Медицина</h1>
-        </a>
-           
-        <nav class="header__menu"> 
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Врачи</a></li>   
-                <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Отзывы</a></li>
-                <li class="menu__item menu__item--input"><input class="menu__input" type="search"></li>
-            </ul>
+    </a> 
+    <nav class="header__menu"> 
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="#Популярные услуги и предложения">Услуги</a></li>
+            <li class="menu__item"><a class="menu__link" href="#Наши врачи">Врачи</a></li>   
+            <li class="menu__item"><a class="menu__link" href="#Контакты">Контакты</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Отзывы</a></li>
+            <li class="menu__item menu__item--input"><input class="menu__input" type="search"></li>
+            <li class="menu__item"><a class="menu__link" href="#">Вход</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Регистрация</a></li>
+        </ul>
         </nav>
-        <div><a class="header__button" href="#">Вход</a>
-        <a class="header__button" href="#">Регистрация</a></div>
-    </header>
-    <main class="main container">
+</header>
+<main class="main container">
     <section class="about">
         <div class="about__wrap-left">
             <h2 class="about__title">О нас</h2>
@@ -48,11 +47,45 @@
             <button class="record__button">Записаться</button>
         </form>
     </section>
-        <section class="services">
-            <h2 class="services__title">Популярные услуги и предложения</h2>
+    <section class="procedures">
+        <h2 class="procedures__title">Процедуры</h2>
+        <ul class="procedures__list">
+            <li class="procedures__card">
+                <img class="procedures__image" src="images/analis.png" alt="Процедуры" width="150" height="160">
+                <h3 class="procedures__name">Анализы</h3>
+                <p class="procedures__text">Мы предлагаем широкий спектр клинико-диагностических услуг.</p>
+            </li>
+            <li class="procedures__card">
+                <img class="procedures__image" src="images/KOSMETUVEL2.png" alt="Процедуры" width="160" height="150">
+                <h3 class="procedures__name">Косметология</h3>
+                <p class="procedures__text">Каждая уходовая процедура состоит из следующих этапов: очистка кожи, глубокая очистка кожи, тонизация, массаж, введение активного концентрата, затем наносится, высокоэффективные маски и процедура заканчивается нанесением крема.</p>
+            </li>
+            <li class="procedures__card">
+                <img class="procedures__image" src="images/rentgen.webp" alt="Процедуры" width="150" height="150">
+                <h3 class="procedures__name">Рентген</h3>
+                <p class="procedures__text">Метод исследования, основанный на прохождение сквозь тело человека рентгеновских лучей.</p>
+            </li>
+            <li class="procedures__card">
+                <img class="procedures__image" src="images/KT.webp" alt="Процедуры" width="150" height="150">
+                <h3 class="procedures__name">КТ</h3>
+                <p class="procedures__text">Один из самых информативных методов диагностики, заключающийся в послойном сканировании тканей посредством просвечивания их рентгеновскими лучами. </p>
+            </li>
+            <li class="procedures__card">
+                <img class="procedures__image" src="images/MRT.webp" alt="Процедуры" width="150" height="190">
+                <h3 class="procedures__name">МРТ</h3>
+                <p class="procedures__text">Метод диагностики, который в медицинских центрах используется для получения максимально анатомически точных изображений внутренних органов и тканей пациента.</p>
+            </li>
+            <li class="procedures__card">
+                <img class="procedures__image" src="images/GGDS.jpg" alt="Процедуры" width="200" height="150">
+                <h3 class="procedures__name">ФГДС.Колоноскопия</h3>
+                <p class="procedures__text">Методика эндоскопического обследования верхнего отдела пищеварительной системы.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="services">
+        <h2 class="services__title" id="Популярные услуги и предложения">Популярные услуги и предложения</h2>
             <div class="services__group">
-                <img class="services__image" src="images/Recovery.jpg" width="350" height="350">
-                <p class="services__text">Популярные услуги</p>
+                <img class="services__image" src="images/Recovery.jpg" width="270" height="350">
             </div>
             <ul class="services__group">
                 <li class="services__item"><a class="services__item-link" href="#">Ренген</a></li>
@@ -68,17 +101,9 @@
                 <li class="services__item"><a class="services__item-link" href="#">Стоматология</a></li>
                 <li class="services__item"><a class="services__item-link" href="#">Физиокабинет</a></li>
             </ul>
-            <ul class="services__group">
-                <li class="services__item"><a class="services__item-link" href="#">Акушерство</a></li>
-                <li class="services__item"><a class="services__item-link" href="#">Остеопатия</a></li>
-                <li class="services__item"><a class="services__item-link" href="#">Терапия</a></li>
-                <li class="services__item"><a class="services__item-link" href="#">Анализы</a></li>
-                <li class="services__item"><a class="services__item-link" href="#">Массаж</a></li>
-            </ul> 
-
-        </section>
-        <section class="doctors">
-            <h2 class="doctors_title">Наши врачи</h2>
+    </section>
+    <section class="doctors">
+            <h2 class="doctors_title" id="Наши врачи">Наши врачи</h2>
             <ul class="doctors__list">
                 <li class="doctors__card">
                     <img class="doctors__image" src="images/doctor1.jpg" alt="Наши врачи" width="150" height="170">
@@ -109,20 +134,50 @@
                     <a class="doctors__link" href="#" >Записаться на прием</a>
                 </li>
             </ul>
-        </section>
+    </section>
     </main>
-    <footer class="footer container">
-        <ul class="services__group">
-            <li class="services__item"><a class="services__item-link" href="#">Услуги</a></li>
-        </ul>
-        <ul class="services__group">
-            <li class="services__item"><a class="services__item-link" href="#">Отзывы</a></li>
-        </ul>
-        <ul class="services__group">
-            <li class="services__item"><a class="services__item-link" href="#">Адреса</a></li>
-        </ul>
-        <h2 class="footer__title">Разработчики</h2>
-        <p class="footer__autor">Сайт создан Шикаревой Е.А и Гороховой Е.Д группы Эк-31</p>
-    </footer>
+<footer class="footer container">
+    <div class="footer__part">
+        <h2 class="footer__title"><a>Услуги</h2>
+            <ul class="footer__group">
+                <li class="footer__item"><a class="footer__item-link" href="#">Анализы</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">Врачи</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">Косметология</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">Медосмотры</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">Справки в налоговую</a></li>
+            </ul>
+    </div>
+    <div class="footer__part">
+        <h2 class="footer__title"><a>Полезное</h2>
+            <ul class="footer__group">
+                <li class="footer__item"><a class="footer__item-link" href="#">Отзывы</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">Вакансии</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">О медцентре</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">Руководство</a></li> 
+                <li class="footer__item"><a class="footer__item-link" href="#">Лицензия</a></li>
+            </ul>
+    </div>
+    <div class="footer__part">
+        <h2 class="footer__title" id="Контакты"><a>Контакты</h2>
+            <ul class="footer__group">
+                <img class="footer__image" src="images/vk.png" alt="Вконтакте" width="30" height="30">
+                <img class="footer__image" src="images/tg.png" alt="Телеграмм" width="30" height="30">
+                <p class="footer__text">+7 (902) 107-10-29</p>
+            </ul>   
+    </div>
+    <div class="footer__part">
+        <h2 class="footer__title"><a>Адреса</h2>
+            <ul class="footer__group">
+                <li class="footer__item"><a class="footer__item-link" href="#">г.Йошкар-Ола, ул. Полевая д.12</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">г. Йошкар - Ола, ул. Звездная д.143</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">г. Йошкар - Ола, ул. Космическая д.78</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">г. Йошкар - Ола, ул. Лесная д.3</a></li>
+                <li class="footer__item"><a class="footer__item-link" href="#">г. Йошкар - Ола, ул. Солнечная д.34</a></li>
+            </ul>
+    </div>        
+    <div class="footer__autor">
+        <p class="footer__text">Сайт создан Шикаревой Е.А и Гороховой Е.Д группы Эк-31</p>
+    </div>
+</footer>
 </body>
 </html>
